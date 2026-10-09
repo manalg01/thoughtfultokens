@@ -2,4 +2,77 @@ import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 import { Eyebrow, Photo, Reveal } from '@/components/site'
 import { images } from '@/lib/data'
-export default function About(){return <><section className="inner-hero"><Eyebrow>THOUGHTFUL TOKENS™ / OUR STORY</Eyebrow><h1>Thought behind<br/>every <em>token.</em></h1><p>Making gifts meaningful & useful because we believe “har tohfe mein ek ehsaas chupa hota hai.”</p></section><section className="about-story section-pad"><Reveal><div><Eyebrow>A FEELING, FIRST</Eyebrow><h2>Giving is a way<br/>of <em>seeing someone.</em></h2></div><p>At Thoughtful Tokens, we believe gifting is more than giving something beautiful. It is about creating a moment, expressing gratitude and making people feel valued. We bring care and intention to every detail — so the gift feels as good to give as it does to receive.</p></Reveal><Reveal className="about-photo"><Photo src={images.story.src} alt="A thoughtfully wrapped gift made to express gratitude"/></Reveal></section><section className="about-values section-pad"><Eyebrow>WHAT WE BELIEVE</Eyebrow><div><h3>Useful, with beauty.</h3><h3>Personal, by nature.</h3><h3>Thoughtful, at every scale.</h3></div></section><section className="closing compact"><Eyebrow>LET’S MAKE SOMETHING MEANINGFUL</Eyebrow><h2>Every gift starts<br/>with <em>a thought.</em></h2><Link className="button-dark" href="/contact">Start a conversation <ArrowRight size={16}/></Link></section></>}
+
+export default function About() {
+ return (
+  <>
+   <section className="inner-hero">
+    <Eyebrow>THOUGHTFUL TOKENS™ / OUR STORY</Eyebrow>
+
+    <h1>
+     Thought behind
+     <br />
+     every <em>token.</em>
+    </h1>
+
+    <p>
+     Making gifts meaningful &amp; useful because we believe
+     “har tohfe mein ek ehsaas chupa hota hai.”
+    </p>
+   </section>
+
+   <section className="about-story section-pad">
+    <Reveal>
+     <div>
+      <Eyebrow>A FEELING, FIRST</Eyebrow>
+
+      <h2>
+       Giving is a way
+       <br />
+       of <em>seeing someone.</em>
+      </h2>
+     </div>
+
+     <p>
+      At Thoughtful Tokens, we believe gifting is more than giving
+      something beautiful. It is about creating a moment, expressing
+      gratitude and making people feel valued. We bring care and
+      intention to every detail — so the gift feels as good to give as
+      it does to receive.
+     </p>
+    </Reveal>
+
+    <div className="about-photo">
+     <Photo
+      src={images.story.src}
+      alt="A thoughtfully wrapped gift made to express gratitude"
+     />
+    </div>
+   </section>
+
+   <section className="about-values section-pad">
+    <Eyebrow>WHAT WE BELIEVE</Eyebrow>
+
+    <div>
+     <h3>Useful, with beauty.</h3>
+     <h3>Personal, by nature.</h3>
+     <h3>Thoughtful, at every scale.</h3>
+    </div>
+   </section>
+
+   <section className="closing compact">
+    <Eyebrow>LET’S MAKE SOMETHING MEANINGFUL</Eyebrow>
+
+    <h2>
+     Every gift starts
+     <br />
+     with <em>a thought.</em>
+    </h2>
+
+    <Link className="button-dark" href="/contact">
+     Start a conversation <ArrowRight size={16} />
+    </Link>
+   </section>
+  </>
+ )
+}
