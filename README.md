@@ -37,41 +37,13 @@ Verified from `package.json` and the application source:
 - **Images:** Next.js Image component
 - **Deployment:** Vercel (live site linked above)
 
-## Getting started
+## Getting Started
 
-### Prerequisites
+The website is live and ready to explore!
 
-- Node.js compatible with the installed Next.js version
-- npm
-- Git
+🌐 **Visit Thoughtful Tokens:** [https://thoughtfultokens.vercel.app/](https://thoughtfultokens.vercel.app/)
 
-### Install and run
-
-1. Clone the repository:
-
-   ```bash
-   git clone <your-github-repository-url>
-   ```
-
-2. Enter the project directory:
-
-   ```bash
-   cd build-a-complete-production-quality-website
-   ```
-
-3. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-4. Start the development server:
-
-   ```bash
-   npm run dev
-   ```
-
-5. Open [http://localhost:3000](http://localhost:3000).
+Open the link in your browser to explore the website and discover our gifting categories. No installation or setup required.
 
 ### Available scripts
 
